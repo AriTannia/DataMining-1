@@ -2,8 +2,14 @@
 
 - Lệnh kiểm tra pip ver vs python ver: python -m pip --version
 
-- Cài vào môi trường: python -m pip install --no-index --find-links="C:\Users\84967\Downloads\Khai Pha Time\Lib_Offline\Lib" -r "C:\Users\84967\Downloads\Khai Pha Time\Lib_Offline\requirements.txt"
+- Cài vào môi trường: python -m pip install --no-index --find-links="C:\Users\84967\Downloads\GIT CLONE HTTP\DataMining-1\KhaiPhaTime\Lib_Offline\Lib" -r "C:\Users\84967\Downloads\GIT CLONE HTTP\DataMining-1\KhaiPhaTime\Lib_Offline\requirements.txt"
 
 - Lệnh gỡ: python -m pip uninstall -r "C:\Users\84967\Downloads\Khai Pha Time\Lib_Offline\requirements.txt" -y
 
 - Gọi python phiên bản local: & "C:\Users\84967\Downloads\GIT CLONE HTTP\DataMining-1\KhaiPhaTime\Lib_Offline\Py_OldVersion\python.exe" --version
+
+- Lệnh tạo môi trưởng virtual: python -m venv myenv
+- Kích hoạt powershell: .\myenv\Scripts\Activate.ps1
+- Kích hoạt cmd: myenv\Scripts\activate
+- Lệnh cập nhật pip: python -m pip install --upgrade pip
+
