@@ -1,0 +1,7 @@
+- Tải thư viện to save: pip download -r "C:\Users\84967\Downloads\Khai Pha Time\Lib_Offline\requirements.txt" --dest="C:\Users\84967\Downloads\Khai Pha Time\Lib_Offline\Lib"
+
+- Lệnh kiểm tra pip ver vs python ver: python -m pip --version
+
+- Cài vào môi trường: python -m pip install --no-index --find-links="C:\Users\84967\Downloads\Khai Pha Time\Lib_Offline\Lib" -r "C:\Users\84967\Downloads\Khai Pha Time\Lib_Offline\requirements.txt"
+
+- Lệnh gỡ: python -m pip uninstall -r "C:\Users\84967\Downloads\Khai Pha Time\Lib_Offline\requirements.txt" -y
