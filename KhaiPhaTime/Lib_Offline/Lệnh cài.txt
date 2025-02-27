@@ -12,4 +12,6 @@
 - Kích hoạt powershell: .\myenv\Scripts\Activate.ps1
 - Kích hoạt cmd: myenv\Scripts\activate
 - Lệnh cập nhật pip: python -m pip install --upgrade pip
+- Cài đặt ipykernel trong myenv: python -m pip install ipykernel
+- Đăng ký kernel cho myenv: python -m ipykernel install --user --name=myenv --display-name="Python (myenv)"
 
